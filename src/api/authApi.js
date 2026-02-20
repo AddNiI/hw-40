@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'https://connections-api.herokuapp.com',
+  baseURL: 'https://6997e369d66520f95f15f0f9.mockapi.io',
 });
 
 export const setAuthHeader = token => {

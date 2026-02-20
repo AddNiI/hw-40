@@ -14,7 +14,7 @@ export default function ContactList() {
     <ul>
       {filteredContacts.map(contact => (
         <li key={contact.id}>
-          {contact.name} - {contact.number}
+          {contact.name} - {contact.phone}
           <button onClick={() => dispatch(deleteContact(contact.id))}>
             Delete
           </button>
